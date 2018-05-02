@@ -35,8 +35,11 @@ For GPU users(here the device can be any other GPU):
     mode = FAST_RUN
     warn_float64 = warn
 
+
 =======================================================================
+
 ### Library
+
 4 main components:
 
 `iterator`: data handler
@@ -96,9 +99,9 @@ and for multi-label datasets:
 The same format is required for the validation and test files too.
 
 
-### Network Architectures
-
 =======================================================================
+
+### Network Architectures
 
 LSTM: LSTM
 
@@ -122,9 +125,10 @@ THEANO_FLAGS='floatX=float32,device=gpu1,mode=FAST_RUN,nvcc.fastmath=True' pytho
 ```
 
 
+=======================================================================
+
 ### Feature Extraction
 
-=======================================================================
 
 We use `extract_rgbcnn.py` and `extract_flowcnn.py` scripts to extract feature maps (e.g. pool5 features) for rgb and flow input.
 While `extract_rgbcnn_fc.py` and `extract_rgbcnn_fc.py` are used to extract fc features.
