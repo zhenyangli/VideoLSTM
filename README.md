@@ -1,12 +1,14 @@
 
-###Requirements
+=======================================================================
+
+### Requirements
 
     Latest Python2 (python2.7.*)
     numpy + scipy
     Theano
     HDF5
 
-###How to Install
+### How to Install
     
     Official Installation Guide For Related Packages
         
@@ -17,7 +19,7 @@
         HDF5:
             https://hdfgroup.org/HDF5/
 
-###How to Config Theano
+### How to Config Theano
 Theano is the backbone of this project. To configure theano, view [theano-config](http://deeplearning.net/software/theano/library/config.html) for more detailed help. You need to write the configuration to ~/.theanorc. The followingTheano configuration is recommended
 
 For CPU users:
@@ -99,7 +101,7 @@ The same format is required for the validation and test files too.
 
 =======================================================================
 
-###Network Architectures
+### Network Architectures
 
 =======================================================================
 
