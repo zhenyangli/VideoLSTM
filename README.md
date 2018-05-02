@@ -1,6 +1,3 @@
-
-=======================================================================
-
 ### Requirements
 
     Latest Python2 (python2.7.*)
@@ -99,8 +96,6 @@ and for multi-label datasets:
 The same format is required for the validation and test files too.
 
 
-=======================================================================
-
 ### Network Architectures
 
 =======================================================================
@@ -127,7 +122,7 @@ THEANO_FLAGS='floatX=float32,device=gpu1,mode=FAST_RUN,nvcc.fastmath=True' pytho
 ```
 
 
-###Feature Extraction
+### Feature Extraction
 
 =======================================================================
 
